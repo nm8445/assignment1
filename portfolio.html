@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jaden Parris">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <!-- Css section -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="content/styles.css">
+</head>
+<body>
+<div class="banner">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
+            <a class="navbar-brand" href="index.html"><i class="fab fa-discord"></i>Harmony Hub</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i>Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html"><i class="fa-solid fa-truck-fast"></i>portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html"><i class="fa-brands fa-usps"></i>Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html"><i class="fa-solid fa-person"></i>Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html"><i class="fa-solid fa-phone"></i>Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Portfolio Section -->
+    <h1 class="portfolio-title">Our Projects</h1>
+    <div class="container my-5">
+        <div class="row" id="projects-container">
+
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <button id="load-more" class="btn btn-primary mt-4">Load More</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Scripting section -->
+<script src="./node_modules/jquery/dist/jquery.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="scripts/Main.js"></script>
+<script src="./scripts/nav.js"></script>
+
+
+</body>
+</html>
